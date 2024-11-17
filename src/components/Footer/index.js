@@ -18,19 +18,19 @@ const Footer = () => {
         </div>
         <div className="d-flex justify-content-center mb-3">
           <a className="text-white" href="#">
-            Privacy
+            Instagram
           </a>
           <span className="px-3">|</span>
           <a className="text-white" href="#">
-            Terms
+            facebook
           </a>
           <span className="px-3">|</span>
           <a className="text-white" href="#">
-            FAQs
+            Whatshapp
           </a>
           <span className="px-3">|</span>
           <a className="text-white" href="#">
-            Help
+            Github
           </a>
         </div>
         <p className="m-0">

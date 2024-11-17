@@ -3,10 +3,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Qualification from "./components/Qualification";
-import Skill from "./components/Skill";
-import Portfolio from "./components/Portofolio";
-import Testimonial from "./components/Testimonial";
-import Blog from "./components/Blog";
+import Hobi from "./components/Hobi";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -18,7 +15,7 @@ const App = () => {
         <Header />
         <About />
         <Qualification />
-        <Testimonial />
+        <Hobi/>
         <Contact />
         <Footer />
         <i className="fa fa-2x fa-angle-down text-white scroll-to-bottom" />

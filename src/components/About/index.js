@@ -32,10 +32,11 @@ const About = () => {
           <div className="col-lg-5 pb-4 pb-lg-0 d-flex justify-content-center">
             {imageBase64 ? (
               <img
-                className="img-fluid rounded w-100"
-                src={`data:image/jpeg;base64,${imageBase64}`}
-                alt="Dicky Mamentu profile picture"
-              />
+              className="img-fluid rounded w-100"
+              src={`data:image/jpeg;base64,${imageBase64}`}
+              alt="Dicky Mamentu profile picture"
+            />
+            
             ) : (
               <div>Loading image...</div>
             )}

@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import { getDatabase, ref, onValue } from "firebase/database";
 
 const Header = () => {
-  const [images, setImages] = useState({});
-  const [imageBase64, setImageBase64] = useState("");
+  const [image, setImages] = useState({});
+  const [imageBase64, setImageBase64] = useState(" ");
 
   useEffect(() => {
     const database = getDatabase();
-    const imageRef = ref(database, "image");
+    const imageRef = ref(database, "image ");
 
     onValue(imageRef, (snapshot) => {
       const data = snapshot.val();
@@ -32,7 +32,7 @@ const Header = () => {
             {imageBase64 ? (
               <img
                 className="img-fluid w-100 rounded-circle shadow-sm"
-                src={`data:image/jpeg;,${imageBase64}`}
+                src={`data:image1/jpeg;,${imageBase64}`}
                 alt="Image from Firebase"
               />
             ) : (
@@ -40,13 +40,8 @@ const Header = () => {
             )}
           </div>
           <div className="col-lg-7 text-center text-lg-left">
-            <h4 className="text-white font-weight-normal mb-3">
-            
-            </h4>
-            <h1>
-              DICKY MENDELLSON MAMENTU
-
-            </h1>
+            <h4 className="text-white font-weight-normal mb-3"></h4>
+            <h1>DICKY MENDELLSON MAMENTU</h1>
             <h1 className="typed-text-output d-inline font-weight-lighter text-white" />
             <div className="typed-text d-none">
               Web Designer, Web Developer, Front End Developer, Apps Designer,
