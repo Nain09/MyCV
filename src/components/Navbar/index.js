@@ -25,9 +25,6 @@ const Navbar = () => {
           <a href="#qualification" className="nav-item nav-link">
             Quality
           </a>
-          <a href="#testimonial" className="nav-item nav-link">
-            Review
-          </a>
           <a href="#contact" className="nav-item nav-link">
             Contact
           </a>
