@@ -1,9 +1,15 @@
 const Navbar = () => {
   return (
-    <nav className="navbar fixed-top -sm navbar-expand-lg bg-black navbar-light py-3 py-lg-5 px-lg-5">
+    <nav
+      className="navbar fixed-top shadow-sm navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5"
+      style={{
+        background: "linear-gradient(90deg, #007bff, #6c757d)", // Gradasi dari biru ke abu-abu
+        boxShadow: "0 30px 60px rgba(0, 0, 0, 6)", // Shadow dari bawah
+      }}
+    >
       <a href="index.html" className="navbar-brand ml-lg-3">
-        <h1 className="m-1 display-5">
-          <span className="teks-white">D</span>M <h6>Dicky Mamentu</h6>
+        <h1 className="m-0 display-5">
+          <span className="text-primary">D</span>M <h6>Dicky Mamentu</h6>
         </h1>
       </a>
       <button
