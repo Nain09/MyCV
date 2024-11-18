@@ -5,6 +5,8 @@ import About from  "./components/About";
 import Qualification from  "./components/Qualification";
 import Contact from  "./components/Contact";
 import Footer from  "./components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const App = () => {
   return (
@@ -17,7 +19,10 @@ const App = () => {
         <Contact />
         <Footer />
         <i className="fa fa-2x fa-angle-down text-white scroll-to-bottom" />
-        <a href="#" className="btn btn-outline-dark px-0 back-to-top">
+        <a href="#top" 
+        className="btn btn-outline-dark px-0 back-to-top"
+        onClick={(e) => e.precentDefault()}
+        >
           <i className="fa fa-angle-double-up" />
         </a>
       </div>
