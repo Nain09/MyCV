@@ -20,23 +20,23 @@ const Qualification = () => {
             <li className="mb-4">
               <h5>SMP</h5>
               <p>
-                <strong>SMP Advent Timika</strong> | 2016 - 2019
+                <strong>Smp Advent 03 Ranotana</strong> | 2016 - 2019
               </p>
-              <p>Saya melanjutkan ke SMP setelah menyelesaikan sekolah dasar.</p>
+              <p></p>
             </li>
             <li className="mb-4">
               <h5>SMA</h5>
               <p>
-                <strong>SMA Advent Timika</strong> | 2020 - 2022
+                <strong>Sma Negeri 01 Pineleng</strong> | 2019 - 2022
               </p>
-              <p>Saya melanjutkan sekolah di Papua Barat.</p>
+              <p>.</p>
             </li>
             <li className="mb-4">
               <h5>Perguruan Tinggi</h5>
               <p>
                 <strong>Universitas Klabat</strong> | 2022 - Sekarang
               </p>
-              <p>Saya melanjutkan kuliah di Teknik Informatika.</p>
+              <p></p>
             </li>
           </ul>
         </div>
@@ -45,10 +45,10 @@ const Qualification = () => {
           <h3 className="mb-4">My Experience</h3>
           <ul className="list-unstyled">
             <li className="mb-4">
-              <h5>Web Designer</h5>
+              <h5>Gamers</h5>
             </li>
             <li className="mb-4">
-              <h5>Front End Developer</h5>
+              <h5>Cyber Security</h5>
             </li>
             <li className="mb-4">
               <h5>Programmer</h5>
