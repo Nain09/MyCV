@@ -6,35 +6,38 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #0BCEAF;
-  --secondary: #6c757d;
-  --success: #407a4d;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #ffffff;
-  --dark: #343a40;
+  --blue: #1E3A8A;           /* Deep Blue */
+  --indigo: #3B82F6;         /* Sky Blue */
+  --purple: #9333EA;         /* Electric Purple */
+  --pink: #FF1493;           /* Deep Pink */
+  --red: #FF0000;            /* Bright Red */
+  --orange: #FF6600;         /* Vivid Orange */
+  --yellow: #FFD700;         /* Gold Yellow */
+  --green: #10B981;          /* Emerald Green */
+  --teal: #0E7490;           /* Teal Blue */
+  --cyan: #06B6D4;           /* Aqua Cyan */
+  --white: #FFFFFF;          /* Pure White */
+  --gray: #D1D5DB;           /* Light Gray */
+  --gray-dark: #1F2937;      /* Charcoal Gray */
+  --primary: #8B5CF6;        /* Purple Blue */
+  --secondary: #FBBF24;      /* Sunflower Yellow */
+  --success: #34D399;        /* Mint Green */
+  --info: #0EA5E9;           /* Bright Cyan */
+  --warning: #F59E0B;        /* Amber Yellow */
+  --danger: #EF4444;         /* Scarlet Red */
+  --light: #F9FAFB;          /* Very Light Gray */
+  --dark: #111827;           /* Very Dark Gray */
+  
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Roboto", sans-serif;
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+  --font-family-sans-serif: "Inter", sans-serif;  /* Modern Sans-serif */
+  --font-family-monospace: "Courier New", Courier, monospace; /* Monospace */
 }
+
 
 *,
 *::before,
@@ -152,13 +155,13 @@ sup {
 }
 
 a {
-  color: #0BCEAF;
+  color: #ce0b0b;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #078571;
+  color: #8a0404;
   text-decoration: underline;
 }
 
@@ -1591,18 +1594,18 @@ pre code {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #bbf1e9;
+  background-color: #f1bbbb;
 }
 
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #80e6d5;
+  border-color: #e68080;
 }
 
 .table-hover .table-primary:hover {
-  background-color: #a6ede2;
+  background-color: #eda6a6;
 }
 
 .table-hover .table-primary:hover > td,
@@ -1909,7 +1912,7 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #62f7df;
+  border-color: #c41d1d;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(11, 206, 175, 0.25);
 }
