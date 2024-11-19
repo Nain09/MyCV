@@ -8,7 +8,7 @@ const Navbar = () => {
     >
       <a href="index.html" className="navbar-brand ml-lg-3">
         <h1 className="m-0 display-5">
-          <span className="text-primary">D</span>M <h6>Dicky Mamentu</h6>
+          <span className="text-primary">K</span>N <h6>King Najoan</h6>
         </h1>
       </a>
       <button
