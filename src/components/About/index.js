@@ -42,7 +42,7 @@ const About = () => {
             )}
           </div>
           <div className="col-lg-7">
-            <h3 className="mb-4">UI/UX Designer &amp; Web Developer</h3>
+            <h3 className="mb-4">Gamers &amp; Programmer</h3>
             <p>
               Saya adalah seorang Mahasiswa Sistem Informasi, saya suka bermain game dan ikut kompetisi. 
               Saya juga tertarik dalam bidang cyber security dan web design.
