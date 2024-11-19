@@ -41,7 +41,7 @@ const Header = () => {
           </div>
           <div className="col-lg-7 text-center text-lg-left">
             <h4 className="text-white font-weight-normal mb-3"></h4>
-            <h1>DICKY MENDELLSON MAMENTU</h1>
+            <h1>NAIN KING ROBERTO NAJOAN</h1>
             <h1 className="typed-text-output d-inline font-weight-lighter text-white" />
             <div className="typed-text d-none">
               Web Designer, Web Developer, Front End Developer, Apps Designer,
