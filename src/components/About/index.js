@@ -44,21 +44,19 @@ const About = () => {
           <div className="col-lg-7">
             <h3 className="mb-4">UI/UX Designer &amp; Web Developer</h3>
             <p>
-              Saya adalah seorang Mahasiswa Teknik Informatika, saya senang
-              dalam bidang Web Design, FrontEnd, dan Aplikasi Development. Saya
-              adalah seorang yang pekerja keras, ramah, dan orang yang tepat
-              waktu. Cita-cita saya adalah ingin menjadi seorang programmer.
+              Saya adalah seorang Mahasiswa Sistem Informasi, saya suka bermain game dan ikut kompetisi. 
+              Saya juga tertarik dalam bidang cyber security dan web design.
             </p>
             <div className="row mb-3">
               <div className="col-sm-6 py-2">
                 <h6>
-                  Name: <span className="text-secondary">Dicky Mamentu</span>
+                  Name: <span className="text-secondary">King Najoan</span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
                 <h6>
                   Birthday:{" "}
-                  <span className="text-secondary">10 maret 2004</span>
+                  <span className="text-secondary">09 September 2004</span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
@@ -68,26 +66,26 @@ const About = () => {
               </div>
               <div className="col-sm-6 py-2">
                 <h6>
-                  Experience: <span className="text-secondary">1 Year</span>
+                  Experience: <span className="text-secondary">2 Year</span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
                 <h6>
-                  Phone: <span className="text-secondary">085254617988 bisa juga 081543330656</span>
+                  Phone: <span className="text-secondary">081243507843</span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
                 <h6>
                   Email:{" "}
                   <span className="text-secondary">
-                    mamentudicky@gmail.com
+                    Princenayoan51@gmail.com
                   </span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
                 <h6>
                   Address:{" "}
-                  <span className="text-secondary">Manado, Sulawesi Utara</span>
+                  <span className="text-secondary">Pinelen, Minahasa, Sulawesi Utara</span>
                 </h6>
               </div>
               <div className="col-sm-6 py-2">
