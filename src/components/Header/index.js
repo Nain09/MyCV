@@ -2,20 +2,20 @@ import React, { useState, useEffect } from "react";
 import { getDatabase, ref, onValue } from "firebase/database";
 
 const Header = () => {
-  const [image, setImages] = useState({});
-  const [imageBase64, setImageBase64] = useState(" ");
+  const [imageBase64, setImageBase64] = useState(null);
 
   useEffect(() => {
     const database = getDatabase();
-    const imageRef = ref(database, "image ");
+    const imageRef = ref(database, "image");
 
     onValue(imageRef, (snapshot) => {
       const data = snapshot.val();
-      setImages(data || {});
 
       if (data) {
-        const firstImage = Object.values(data)[0];
-        setImageBase64(firstImage);
+        const firstImage = Object.values(data)[0]; // Ambil gambar pertama
+        setImageBase64(firstImage); // Simpan data Base64 atau URL
+      } else {
+        setImageBase64(null); // Tidak ada data gambar
       }
     });
   }, []);
@@ -31,12 +31,16 @@ const Header = () => {
           <div className="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
             {imageBase64 ? (
               <img
-                className="img-fluid w-100 rounded-circle shadow-sm"
-                src={`data:image1/jpeg;,${imageBase64}`}
+                className="img-fluid w-100 rounded- shadow-sm"
+                src={
+                  imageBase64.startsWith("data:image")
+                    ? imageBase64
+                    : `data:image/jpeg;base64,${imageBase64}`
+                }
                 alt="Image from Firebase"
               />
             ) : (
-              <div className="text-white">Loading image..</div>
+              <div className="text-white">Loading image...</div>
             )}
           </div>
           <div className="col-lg-7 text-center text-lg-left">

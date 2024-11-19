@@ -6,7 +6,7 @@ const About = () => {
 
   useEffect(() => {
     const database = getDatabase();
-    const imageRef = ref(database, "image/image1");
+    const imageRef = ref(database, "image");
 
     onValue(imageRef, (snapshot) => {
       const data = snapshot.val();
