@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <nav
-      className="navbar fixed-top shadow-sm navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5"
+      className="navbar fixed-top shadow-sm navbar-expand-lg navbar-Black py-3 py-lg-0 px-lg-5"
       style={{
         background: "linear-gradient(180deg, #6757d1, #000000)", // Gradasi dari ungu ke hitam dari kanan ke kiri
       }}
